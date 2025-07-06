@@ -8,6 +8,7 @@ app = FastAPI()
 
 origins = [
     "https://byali.tech",       # Production site
+    "https://www.byali.tech",       # Production site
 ]
 
 app.add_middleware(
